@@ -75,5 +75,5 @@ Aplikasi ini adalah sistem manajemen peran pengguna (User Role Management) berba
 
 1. **Clone repository**:
    ```bash
-   git clone https://github.com/username/repository-name.git
-   cd repository-name
+   git clone https://github.com/rizkycahyono97/repository-name.git
+   cd laravel-spatie
