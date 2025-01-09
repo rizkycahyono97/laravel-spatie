@@ -1,0 +1,75 @@
+/* --------------- */
+/* Layouts */
+/* --------------- */
+.sidebar {
+  background-color: #2A3F54;
+}
+
+/* ------------------ */
+/* End of Layouts */
+/* ---------------- */
+
+
+/* ----------------- */
+/* dashboard */
+/* ----------------- */
+
+/* welcome */
+.gradient-bg {
+  background: linear-gradient(135deg, #5500af, #437ee4);
+  color: #fff;
+}
+
+.card-body h1, .card-body h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.role-panel {
+  margin-top: 30px;
+}
+
+.role-panel h2 {
+  font-weight: bold;
+}
+
+.role-panel p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.divider {
+  height: 2px;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 20px auto;
+}
+
+/* table */
+.table th, .table td {
+  vertical-align: middle;
+  text-align: center;
+}
+.table th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.material-icons {
+  font-size: 14px; /* Sesuaikan ukuran font */
+  padding: 0;
+}
+.icon .material-icons {
+  font-size: 18px; /* Ikon dalam tombol kecil */
+  padding: 0;
+  color: grey;
+}
+
+.icon .material-icons:hover {
+  color: black;
+}
+/* --------------- */
+/* End Of Dashboard */
+/* ---------------- */
+
+/* ----------------- */
+/* Transaction View */
+/* --------------- */
