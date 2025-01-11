@@ -77,3 +77,21 @@ Aplikasi ini adalah sistem manajemen peran pengguna (User Role Management) berba
    ```bash
    git clone https://github.com/rizkycahyono97/repository-name.git
    cd laravel-spatie
+2. **Run Application**:
+   ```bash
+   cd laravel-spatie
+   composer install
+   cp .env.example .env
+   DB_DATABASE=userRole_management
+   php artisan key:generate
+   npm install
+   npm run build
+   php artisan octane:frankenphp --port 8080 && npm run dev
+3. **Optimize Laravel**:
+   ```bash
+   php artisan config:cache
+   php artisan route:cache
+   php artisan view:cache
+
+
+   
