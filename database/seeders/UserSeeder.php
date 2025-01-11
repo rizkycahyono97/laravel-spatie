@@ -15,35 +15,35 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-        // $admin =  User::create([
-        //     'name' => 'Rizky Cahyono Putra',
-        //     'email' => 'rizkycahyonoputra2004@gmail.com',
-        //     'password' => Hash::make('test1234'),
-        //     'role' => 'admin',
-        //     'created_at' => Carbon::now(),
-        //     'updated_at' => Carbon::now(),
-        // ]);
-        // $admin->assignRole('admin'); // spatie assigment
+        $admin =  User::create([
+            'name' => 'Rizky Cahyono Putra',
+            'email' => 'rizkycahyonoputra2004@gmail.com',
+            'password' => Hash::make('test1234'),
+            'role' => 'admin',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+        $admin->assignRole('admin'); // spatie assigment
 
-        // $manager = User::create([
-        //     'name' => 'manager',
-        //     'email' => 'manager@gmail.com',
-        //     'password' => Hash::make('test1234'),
-        //     'role' => 'manager',
-        //     'created_at' => Carbon::now(),
-        //     'updated_at' => Carbon::now(),
-        // ]);
-        // $manager->assignRole('manager');
+        $manager = User::create([
+            'name' => 'manager',
+            'email' => 'manager@gmail.com',
+            'password' => Hash::make('test1234'),
+            'role' => 'manager',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+        $manager->assignRole('manager');
 
-        // $staff = User::create([
-        //     'name' => 'staff',
-        //     'email' => 'staff@gmail.com',
-        //     'password' => Hash::make('test1234'),
-        //     'role' => 'staff',
-        //     'created_at' => Carbon::now(),
-        //     'updated_at' => Carbon::now(),
-        // ]);
-        // $staff->assignRole('staff');
+        $staff = User::create([
+            'name' => 'staff',
+            'email' => 'staff@gmail.com',
+            'password' => Hash::make('test1234'),
+            'role' => 'staff',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now(),
+        ]);
+        $staff->assignRole('staff');
 
         $staff2 = User::create([
             'name' => 'staff2',

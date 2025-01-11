@@ -27,9 +27,12 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         // from factory
-        User::factory(10)->create();
-        Categories::factory(10)->create();
-        Transaction::factory(10)->create();
-        Budgets::factory(10)->create();
+        // User::factory(10)->create();
+        // Categories::factory(10)->create();
+        // Transaction::factory(10)->create();
+        // Budgets::factory(10)->create();
+
+        // seeder
+        $this->call(UserSeeder::class);
     }
 }
