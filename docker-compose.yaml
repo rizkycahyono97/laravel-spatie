@@ -19,6 +19,8 @@ services:
       - DB_DATABASE=userRole_management
       - DB_USERNAME=root
       - DB_PASSWORD=root
+    depends_on:
+      - db
 
   db:
     image: mysql:8.0
