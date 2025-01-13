@@ -32,9 +32,9 @@ COPY .env.example .env
 RUN php artisan key:generate
 
 # Database seeding
-RUN php artisan migrate:fresh \
-    && php artisan db:seed --class=RolePermissionSeeder \
-    && php artisan db:seed
+# RUN php artisan migrate:fresh \
+#     && php artisan db:seed --class=RolePermissionSeeder \
+#     && php artisan db:seed
 
 # Expose port for FrankenPHP
 EXPOSE 8080
