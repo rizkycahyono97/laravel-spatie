@@ -75,9 +75,9 @@ Aplikasi ini adalah sistem manajemen peran pengguna (User Role Management) berba
 
 1. **Clone repository**:
    ```bash
-   git clone https://github.com/rizkycahyono97/repository-name.git
+   git clone https://github.com/rizkycahyono97/laravel-spatie.git
    cd laravel-spatie
-2. **Run Application**:
+2. **Run Manualy**:
    ```bash
    cd laravel-spatie
    composer install
@@ -89,7 +89,11 @@ Aplikasi ini adalah sistem manajemen peran pengguna (User Role Management) berba
    php artisan db:seed --class=RolePermissionSeeder
    php artisan db:seed
    php artisan octane:frankenphp --port 8080 && npm run dev
-3. **Optimize Laravel**:
+3. **Run Using Docker-compose**
+    ```bash
+    docker-compose down
+    docker-compose exec app bash -c "php artisan migrate:fresh && php artisan db:seed --class=RolePermissionSeeder && php artisan db:seed"
+4. **Optimize Laravel**:
    ```bash
    php artisan config:cache
    php artisan route:cache
