@@ -91,7 +91,7 @@ Aplikasi ini adalah sistem manajemen peran pengguna (User Role Management) berba
    php artisan octane:frankenphp --port 8080 && npm run dev
 3. **Run Using Docker-compose**
     ```bash
-    docker-compose down
+    docker-compose up -d
     docker-compose exec app bash -c "php artisan migrate:fresh && php artisan db:seed --class=RolePermissionSeeder && php artisan db:seed"
 4. **Optimize Laravel**:
    ```bash
