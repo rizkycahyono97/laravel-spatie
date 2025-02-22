@@ -86,6 +86,7 @@ Aplikasi ini adalah sistem manajemen peran pengguna (User Role Management) berba
    php artisan key:generate
    npm install
    npm run build
+   php artisan migrate
    php artisan db:seed --class=RolePermissionSeeder
    php artisan db:seed
    php artisan octane:frankenphp --port 8080 && npm run dev
